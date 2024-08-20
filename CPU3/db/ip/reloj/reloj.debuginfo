@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <EnsembleReport name="reloj" kind="system" version="18.1" fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2024.08.19.19:49:46 -->
+ <!-- 2024.08.19.20:51:19 -->
  <!-- A collection of modules and connections -->
  <parameter name="clockCrossingAdapter">
   <type>com.altera.sopcmodel.ensemble.EClockAdapter</type>
@@ -13,7 +13,7 @@
  </parameter>
  <parameter name="device">
   <type>java.lang.String</type>
-  <value>5CSEMA5F31C6</value>
+  <value>5CSXFC6D6F31C6</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -29,7 +29,7 @@
  </parameter>
  <parameter name="deviceSpeedGrade">
   <type>java.lang.String</type>
-  <value>6</value>
+  <value>6_H6</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -53,7 +53,7 @@
  </parameter>
  <parameter name="generationId">
   <type>int</type>
-  <value>1724118569</value>
+  <value>1724122264</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>true</visible>
@@ -6439,7 +6439,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AUTO_DEVICE">
    <type>java.lang.String</type>
-   <value>5CSEMA5F31C6</value>
+   <value>5CSXFC6D6F31C6</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -10237,5 +10237,5 @@ parameters are a RESULT of the module parameters. -->
   <version>18.1</version>
  </plugin>
  <reportVersion>18.1 625</reportVersion>
- <uniqueIdentifier>346F2457D944000001916D79A1D0</uniqueIdentifier>
+ <uniqueIdentifier>346F2457D944000001916DB1FDF4</uniqueIdentifier>
 </EnsembleReport>

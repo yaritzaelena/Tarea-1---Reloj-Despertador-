@@ -1,5 +1,5 @@
 Flow report for CPU3
-Mon Aug 19 19:52:24 2024
+Mon Aug 19 20:54:30 2024
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,24 +40,24 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Aug 19 19:52:15 2024       ;
+; Flow Status                     ; Successful - Mon Aug 19 20:54:20 2024       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; CPU3                                        ;
 ; Top-level Entity Name           ; CPU1_inst                                   ;
 ; Family                          ; Cyclone V                                   ;
-; Device                          ; 5CSEMA5F31C6                                ;
+; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 701 / 32,070 ( 2 % )                        ;
-; Total registers                 ; 941                                         ;
-; Total pins                      ; 4 / 457 ( < 1 % )                           ;
+; Logic utilization (in ALMs)     ; 697 / 41,910 ( 2 % )                        ;
+; Total registers                 ; 939                                         ;
+; Total pins                      ; 4 / 499 ( < 1 % )                           ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 44,032 / 4,065,280 ( 1 % )                  ;
-; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
-; Total HSSI RX PCSs              ; 0                                           ;
-; Total HSSI PMA RX Deserializers ; 0                                           ;
-; Total HSSI TX PCSs              ; 0                                           ;
-; Total HSSI PMA TX Serializers   ; 0                                           ;
-; Total PLLs                      ; 0 / 6 ( 0 % )                               ;
+; Total block memory bits         ; 44,032 / 5,662,720 ( < 1 % )                ;
+; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
+; Total HSSI RX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA RX Deserializers ; 0 / 9 ( 0 % )                               ;
+; Total HSSI TX PCSs              ; 0 / 9 ( 0 % )                               ;
+; Total HSSI PMA TX Serializers   ; 0 / 9 ( 0 % )                               ;
+; Total PLLs                      ; 0 / 15 ( 0 % )                              ;
 ; Total DLLs                      ; 0 / 4 ( 0 % )                               ;
 +---------------------------------+---------------------------------------------+
 
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/19/2024 19:49:13 ;
+; Start date & time ; 08/19/2024 20:50:48 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CPU3                ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+---------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                                   ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 4681964420763.172411855341048                           ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 4681964420763.172412224828376                           ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; None                                                    ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                      ; 1 ps                                                    ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                      ; --            ; --          ; --             ;
@@ -112,11 +112,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:03     ; 1.0                     ; 5055 MB             ; 00:00:42                           ;
-; Fitter               ; 00:01:47     ; 1.1                     ; 7952 MB             ; 00:02:08                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4851 MB             ; 00:00:06                           ;
-; Timing Analyzer      ; 00:00:08     ; 2.2                     ; 5333 MB             ; 00:00:11                           ;
-; Total                ; 00:03:04     ; --                      ; --                  ; 00:03:07                           ;
+; Analysis & Synthesis ; 00:01:01     ; 1.0                     ; 5054 MB             ; 00:00:43                           ;
+; Fitter               ; 00:02:18     ; 1.1                     ; 7940 MB             ; 00:02:45                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4845 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:09     ; 2.2                     ; 5333 MB             ; 00:00:08                           ;
+; Total                ; 00:03:35     ; --                      ; --                  ; 00:03:41                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

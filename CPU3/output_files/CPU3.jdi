@@ -1,9 +1,9 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="3ec30146e6a0adbfcb11"/>
+    <hash md5_digest_80b="fde60af70cb49ddd0abc"/>
   </project>
   <file_info>
-    <file device="5CSEMA5F31C6" path="CPU3.sof" usercode="0xFFFFFFFF"/>
+    <file device="5CSXFC6D6F31C6" path="CPU3.sof" usercode="0xFFFFFFFF"/>
   </file_info>
   <hub_info hub_ir_width="5" ir_width="2" node_addr_width="2" node_count="2"/>
   <node_info>
