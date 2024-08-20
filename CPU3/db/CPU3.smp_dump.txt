@@ -1,0 +1,9 @@
+
+State Machine - |CPU1_inst|CPU1:u0|CPU1_cpu:cpu|CPU1_cpu_cpu:cpu|CPU1_cpu_cpu_nios2_oci:the_CPU1_cpu_cpu_nios2_oci|CPU1_cpu_cpu_debug_slave_wrapper:the_CPU1_cpu_cpu_debug_slave_wrapper|CPU1_cpu_cpu_debug_slave_tck:the_CPU1_cpu_cpu_debug_slave_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
